@@ -1,3 +1,6 @@
+= Gradle Manual DocSet Builder README
+Kon Soulianidis <kon@outrospective.org>
+
 Creates the db for a http://kapeli.org/dash[Dash] docset for the http://gradle.org[Gradle] 2.0 manual.
 Uses Java 8 and Groovy 2.3
 
