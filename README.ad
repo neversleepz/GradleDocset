@@ -1,0 +1,14 @@
+Creates the db for a http://kapeli.org/dash[Dash] docset for the http://gradle.org[Gradle] 2.0 manual.
+Uses Java 8 and Groovy 2.3
+
+This project has the mysql db precreated.
+
+To update, copy the Gradle manual (html, css, images, etc) to a folder underneath
+Gradle.docset/Contents/Resources/Documents, replacing whats already there.
+Open the sqllite db and truncate the searchIndex table.
+
+Update the `gradleManualPath` variable before running
+
+References
+----------
+http://kapeli.com/docsets[Generating Dash Docsets]
